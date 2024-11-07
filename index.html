@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nazareth Ruiz">
+    <meta name="Description" content="pagina de curriculum">
+    <title>pagina de mi curriculum</title>
+
+    <style>
+        body{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,nav,section,footer{
+            padding: 10px;
+        }
+
+        header{
+            background-color: rgb(235, 214, 224);      
+            color:rgb(117, 62, 218);
+            text-align:center;
+        }
+
+        nav{
+            background-color: beige;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 32px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .content-section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #ac8f8f;
+            border-radius: 60px;
+        }
+
+
+        .table-summary {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table-summary, .table-summary th, .table-summary td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <h1>Curriculum </h1>
+       <img src="imagen/logo.png" width="100">
+       
+    </header>
+
+    <nav>
+     <a href="#">Home</a>  
+    </nav>
+
+    <nav >
+        <a href="#informacion-personal">Información Personal</a>
+        <a href="#experiencia-laboral">Experiencia Laboral</a>      
+        <a href="#resumen">Resumen</a>
+        <a href="#temas-de-interes">Temas de Interés</a>
+    </nav>
+
+
+
+
+    <section  id="informacion-personal" class="content-section">
+        <h2>Informacion Personal</h2>
+        <img src="imagen/foto.png.JPG" width="150" alt="mi foto">
+
+       <p> <strong>Nombre:</strong> Nazareth Ruiz</p>
+       <p><strong>Telefono:</strong> 5678904</p>
+       <p><strong>Correo:</strong> nanreth@gmail.com</p>
+       <h3>Informacion Academica</h3>
+       <p><strong>Bachiller:</strong> Colegio Bilingue de Palmares</p>
+       <p><strong>Universidad:</strong> Manejo de recursos Naturales Universidad de Costa Rica</p>
+       <p><strong>Tecnico:</strong> Desarrollo de sistemas de Software INA</p>
+       <p><strong>Idiomas:</strong> Español,Ingles,Japones</p>
+
+
+    </section>
+
+
+    <section id="experiencia-laboral" class="content-section">
+
+        <h2>Experiencia Laboral</h2>
+        <nav>
+            <ul>
+                <li>Desorrollo de proyectos de manejo de residuos asi como un proyectos de planes de manejo de areas protegidas con uso de SIG  </li>
+                <li>Colaboracion en proyectos para el Centro Occidente Japon para la elaboracion de un sistema de gestion y administracion de libros</li>
+                
+            </ul>
+        </nav>
+    </section>
+
+
+   
+
+
+   
+        <section id="resumen">
+            <h2>Resumen</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Temas de interés</th>
+                        <th>Habilidades y Fortalezas</th>
+                        <th>Conocimientos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dibujo</td>
+                        <td>Creatividad</td>
+                        <td>Dibujo y diseño</td>
+                    </tr>
+                    <tr>
+                        <td>Programación</td>
+                        <td>Lógica</td>
+                        <td>JavaScript, HTML, CSS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="temas-de-interes" class="content-section">
+            <h2>Temas de Interes</h2>
+            <h3>video de interes</h3> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VxrIZGQfxmE?si=ersRv8w4KHoGMq6l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Carta Recomendacion</h3>
+            <iframe src="cartas/Carta recomendación.pdf"  width="600" height="500">
+        </section>
+        
+  
+</body>
+
+
+</html>
